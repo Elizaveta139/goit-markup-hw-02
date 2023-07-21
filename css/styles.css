@@ -7,6 +7,7 @@
   --text-title: #ffffff;
   --accent-text: #4d5ae5;
   --accent-pressed: #404bbf;
+  --border-tabs: #e7e9fc;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-.logo {
+.logo-header {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -30,7 +31,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo-two {
+.logo-header-two {
   color: var(--color-main-text);
 }
 
@@ -91,8 +92,8 @@ body {
   cursor: pointer;
 }
 
-.hero .button-title:hover,
-.hero .button-title:focus {
+.section-hero .button-title:hover,
+.section-hero .button-title:focus {
   background-color: var(--accent-pressed);
 }
 
@@ -151,4 +152,43 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--color-tertiary-text);
+}
+
+/* Portfolio content */
+
+.button-tabs {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--accent-text);
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--border-tabs);
+  background: var(--color-tertiary-text);
+}
+
+.section-tabs .button-tabs:hover,
+.section-tabs .button-tabs:focus {
+  background-color: var(--accent-pressed);
+  color: var(--primary-bg-color);
+}
+
+/*  Galery */
+
+.galery-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.galery-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--color-secondary-text);
 }
