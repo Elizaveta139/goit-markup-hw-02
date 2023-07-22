@@ -49,6 +49,11 @@ body {
   color: var(--color-main-text);
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-pressed);
+}
+
 /* Contacts */
 
 .site-contacts {
@@ -62,11 +67,8 @@ body {
   color: var(--color-secondary-text);
 }
 
-.site-contacts .link:hover {
-  color: var(--accent-pressed);
-}
-
-.site-contacts .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-pressed);
 }
 
