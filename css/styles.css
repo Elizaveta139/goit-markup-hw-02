@@ -62,7 +62,10 @@ body {
   color: var(--color-secondary-text);
 }
 
-.site-contacts .link:hover,
+.site-contacts .link:hover {
+  color: var(--accent-pressed);
+}
+
 .site-contacts .link:focus {
   color: var(--accent-pressed);
 }
@@ -182,7 +185,11 @@ body {
   cursor: pointer;
 }
 
-.section-tabs .button-tabs:hover,
+.section-tabs .button-tabs:hover {
+  background-color: var(--accent-pressed);
+  color: var(--primary-bg-color);
+}
+
 .section-tabs .button-tabs:focus {
   background-color: var(--accent-pressed);
   color: var(--primary-bg-color);
