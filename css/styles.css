@@ -140,11 +140,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--color-tertiary-text);
 }
 
 .logo-footer-two {
-  color: var(--accent-text);
+  color: var(--color-tertiary-text);
 }
 
 .footer-text {
@@ -169,6 +168,7 @@ body {
   border-radius: 4px;
   border: 1px solid var(--border-tabs);
   background: var(--color-tertiary-text);
+  cursor: pointer;
 }
 
 .section-tabs .button-tabs:hover,
